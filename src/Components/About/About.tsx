@@ -9,12 +9,12 @@ const About = () => {
                 <div className="row no-gutters">
                     <div className="col-lg-6 video-box">
                         <img src="assets/img/about.jpg" className="img-fluid" alt="" />
-                        <a href="https://www.youtube.com/watch?v=lZG_TzT9FQU&pp=ygUMcGFwaWVyIHBlaW50" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
+                        <a href="https://youtu.be/BuyjJ9HUsbs?si=BneyUDZsqnrEOf-d" className="venobox play-btn mb-4" data-vbtype="video" data-autoplay="true"></a>
                     </div>
                     <div className="col-lg-6 d-flex flex-column justify-content-center about-content">
                         <div className="section-title">
                             <h2 style={{color : "#D2691E"}}>A propos</h2>
-                            <p>
+                            <p className="text-justify">
                                 WE DESIGN, est une entreprise
                                 proposant des services en design
                                 intérieur.

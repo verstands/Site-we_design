@@ -34,8 +34,8 @@ const Equipe = () => {
         <div className="member">
           <div className="pic"><img src="b.jpeg" className="img-fluid" alt="" /></div>
           <div className="member-info">
-            <h4>Sarah Jhonson</h4>
-            <span>Product Manager</span>
+            <h4>Safi Jhonson</h4>
+            <span>Directeur Generale</span>
             <div className="social">
               <a href=""><i className="icofont-twitter"></i></a>
               <a href=""><i className="icofont-facebook"></i></a>
@@ -50,8 +50,8 @@ const Equipe = () => {
         <div className="member">
           <div className="pic"><img src="b.jpeg" className="img-fluid" alt="" /></div>
           <div className="member-info">
-            <h4>Sarah Jhonson</h4>
-            <span>Product Manager</span>
+            <h4>Safi Jhonson</h4>
+            <span>Directeur Generale</span>
             <div className="social">
               <a href=""><i className="icofont-twitter"></i></a>
               <a href=""><i className="icofont-facebook"></i></a>

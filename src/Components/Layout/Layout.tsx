@@ -1,5 +1,6 @@
 
 import { Outlet } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Layout = () => {
     return (
@@ -35,9 +36,9 @@ const Layout = () => {
                 <div className="container">
                     <div className="logo float-left">
                         <h1 className="text-light">
-                            <a href="index.html">
+                            <Link to="/">
                                 <span style={{ color: "#D2691E", fontWeight: 'bold' }}>WE DESIGN</span>
-                            </a>
+                            </Link>
                         </h1>
                         {/* Uncomment below if you prefer to use an image logo */}
                         {/* <a href="index.html"><img src="assets/img/logo.png" alt="" className="img-fluid"></a> */}
@@ -86,7 +87,7 @@ const Layout = () => {
                                     <a href="#"  className="twitter"><i  className="bx bxl-twitter"></i></a>
                                     <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
                                     <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                                    <a href="#" className="google-plus"><i className="bx bxl-skype"></i></a>
+                                    <a href="#" className="google-plus"><i className="bx bxl-whatsapp"></i></a>
                                     <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
                                 </div>
                             </div>
@@ -95,11 +96,11 @@ const Layout = () => {
                                 <h4>Liens utiles</h4>
                                 <ul>
                                     <li><i className="bx bx-chevron-right"></i> <a href="#header">Accueil</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Apropos</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Categories</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Equipe</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#">Contact</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="#about">Apropos</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="#portfolio">Categories</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="#team">Equipe</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
                                 </ul>
                             </div>
 
@@ -124,7 +125,7 @@ const Layout = () => {
 
                 <div className="container">
                     <div className="copyright">
-                        &copy; {new Date().getFullYear()} <strong><span>verstands</span></strong>.tous droits réservés
+                        &copy; {new Date().getFullYear()} <strong><a href='https://portofoliorabby.netlify.app/'>verstands</a></strong>.tous droits réservés
                     </div>
                 </div>
             </footer>

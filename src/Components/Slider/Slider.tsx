@@ -14,9 +14,11 @@ const Slider = () => {
                         <div className="carousel-item active" style={{ backgroundImage: "url('logo.jpeg')" }}>
                             <div className="carousel-container">
                                 <div className="carousel-content container">
-                                    <h2  className="animated fadeInDown">Bienvenue chez <span>WE DESIGN</span></h2>
-                                    <p className="animated fadeInUp" style={{fontWeight : "bold"}}>Vous accompagne dans vos projets d'architecture en vous proposant une variété des papiers peints de qualité et design unique..</p>
-                                    <a href="#about" className="btn-get-started animated fadeInUp scrollto" style={{background : "#D2691E", fontWeight : "bold"}}>En savoir plus</a>
+                                    <center>
+                                        <h2 className="animated fadeInDown item-center">Bienvenue chez <span>WE DESIGN</span></h2>
+                                        <p className="animated fadeInUp" style={{ fontWeight: "bold" }}>Vous accompagne dans vos projets d'architecture en vous proposant une variété des papiers peints de qualité et design unique..</p>
+                                        <a href="#about" className="btn-get-started animated fadeInUp scrollto" style={{ background: "#D2691E", fontWeight: "bold" }}>En savoir plus</a>
+                                    </center>
                                 </div>
                             </div>
                         </div>
@@ -24,8 +26,9 @@ const Slider = () => {
                         <div className="carousel-item" style={{ backgroundImage: "url('z.jpeg')" }}>
                             <div className="carousel-container">
                                 <div className="carousel-content container">
+                                    <center>
                                     <h2 className="animated fadeInDown">WE DESIGN</h2>
-                                    <p className="animated fadeInUp" style={{fontWeight : "bold"}}>
+                                    <p className="animated fadeInUp" style={{ fontWeight: "bold" }}>
                                         En effet les couleurs et le design d’une
                                         maison doivent être le reflet des personnes
                                         qui y vivent.
@@ -35,7 +38,8 @@ const Slider = () => {
                                         agrémentant les conditions de vie et de
                                         travail de cette dernières.
                                     </p>
-                                    <a href="#about" className="btn-get-started animated fadeInUp scrollto" style={{background : "#D2691E", fontWeight : "bold"}}>En savoir plus</a>
+                                    <a href="#about" className="btn-get-started animated fadeInUp scrollto" style={{ background: "#D2691E", fontWeight: "bold" }}>En savoir plus</a>
+                                    </center>
                                 </div>
                             </div>
                         </div>
@@ -44,13 +48,15 @@ const Slider = () => {
                         <div className="carousel-item" style={{ backgroundImage: "url('i.jpeg')" }}>
                             <div className="carousel-container">
                                 <div className="carousel-content container">
+                                    <center>
                                     <h2 className="animated fadeInDown">WE DESIGN</h2>
-                                    <p className="animated fadeInUp" style={{fontWeight : "bold"}}>
-                                    Ce but est atteint grâce au services des
-personnes qualifiés, d’architectes
-d’intérieur que nous sommes
+                                    <p className="animated fadeInUp" style={{ fontWeight: "bold" }}>
+                                        Ce but est atteint grâce au services des
+                                        personnes qualifiés, d’architectes
+                                        d’intérieur que nous sommes
                                     </p>
-                                    <a href="#about" className="btn-get-started animated fadeInUp scrollto" style={{background : "#D2691E", fontWeight : "bold"}}>En savoir plus</a>
+                                    <a href="#about" className="btn-get-started animated fadeInUp scrollto" style={{ background: "#D2691E", fontWeight: "bold" }}>En savoir plus</a>
+                                    </center>
                                 </div>
                             </div>
                         </div>
