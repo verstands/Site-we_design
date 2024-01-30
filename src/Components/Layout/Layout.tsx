@@ -16,16 +16,16 @@ const Layout = () => {
                         <a href="#" style={{color : "#D2691E"}} className="twitter">
                             <i className="icofont-twitter"></i>
                         </a>
-                        <a href="#" style={{color : "#D2691E"}} className="facebook">
+                        <a href="https://www.facebook.com/profile.php?id=61555879678095" target="_blank" style={{color : "#D2691E"}} className="facebook">
                             <i className="icofont-facebook"></i>
                         </a>
-                        <a href="#" style={{color : "#D2691E"}} className="instagram">
+                        <a href="https://www.instagram.com/wedesign749?igsh=MXRjMnNhZm1rd2tjOQ==" target="_blank" style={{color : "#D2691E"}} className="instagram">
                             <i className="icofont-instagram"></i>
                         </a>
                         <a href="#" style={{color : "#D2691E"}} className="skype">
                             <i className="icofont-skype"></i>
                         </a>
-                        <a href="#" style={{color : "#D2691E"}} className="linkedin">
+                        <a href="https://www.linkedin.com/in/we-design-3281312b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" style={{color : "#D2691E"}} className="linkedin">
                             <i className="icofont-linkedin"></i>
                         </a>
                     </div>
@@ -56,7 +56,7 @@ const Layout = () => {
                                 <a href="#services" style={{color : "#D2691E"}}>Services</a>
                             </li>
                             <li>
-                                <a href="#portfolio" style={{color : "#D2691E"}}>Categorie</a>
+                                <a href="#portfolio" style={{color : "#D2691E"}}>Catalogue</a>
                             </li>
                             <li>
                                 <a href="#team" style={{color : "#D2691E"}}>Equipe</a>
@@ -78,17 +78,15 @@ const Layout = () => {
                             <div className="col-lg-3 col-md-6 footer-info">
                                 <h3>WE DESIGN</h3>
                                 <p>
-                                5B3 ; Ancienne Galerie Présidentielle <br />
-                                  Kinhsasa<br /><br />
-                                    <strong>Phone:</strong> +243 815330186<br />  +243 815330186 <br />
+                                5B3, Anciennes Galeries Présidentielle <br />
+                                  Kinhsasa Gombe<br /><br />
+                                    <strong>Phone:</strong> +243 815330186<br />  +243 975 416 729 <br />
                                     <strong>Email:</strong> info@Wedesign.com<br />
                                 </p>
                                 <div className="social-links mt-3">
-                                    <a href="#"  className="twitter"><i  className="bx bxl-twitter"></i></a>
-                                    <a href="#" className="facebook"><i className="bx bxl-facebook"></i></a>
-                                    <a href="#" className="instagram"><i className="bx bxl-instagram"></i></a>
-                                    <a href="#" className="google-plus"><i className="bx bxl-whatsapp"></i></a>
-                                    <a href="#" className="linkedin"><i className="bx bxl-linkedin"></i></a>
+                                    <a href="https://www.facebook.com/profile.php?id=61555879678095" target="_blank" className="facebook"><i className="bx bxl-facebook"></i></a>
+                                    <a href="https://www.instagram.com/wedesign749?igsh=MXRjMnNhZm1rd2tjOQ==" target="_blank" className="instagram"><i className="bx bxl-instagram"></i></a>
+                                    <a href="https://www.linkedin.com/in/we-design-3281312b0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" className="linkedin" target="_blank"><i className="bx bxl-linkedin"></i></a>
                                 </div>
                             </div>
 
@@ -98,7 +96,7 @@ const Layout = () => {
                                     <li><i className="bx bx-chevron-right"></i> <a href="#header">Accueil</a></li>
                                     <li><i className="bx bx-chevron-right"></i> <a href="#about">Apropos</a></li>
                                     <li><i className="bx bx-chevron-right"></i> <a href="#services">Services</a></li>
-                                    <li><i className="bx bx-chevron-right"></i> <a href="#portfolio">Categories</a></li>
+                                    <li><i className="bx bx-chevron-right"></i> <a href="#portfolio">Catalogue</a></li>
                                     <li><i className="bx bx-chevron-right"></i> <a href="#team">Equipe</a></li>
                                     <li><i className="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
                                 </ul>
@@ -125,7 +123,7 @@ const Layout = () => {
 
                 <div className="container">
                     <div className="copyright">
-                        &copy; {new Date().getFullYear()} <strong><a href='https://portofoliorabby.netlify.app/'>verstands</a></strong>.tous droits réservés
+                        &copy; {new Date().getFullYear()} <strong><a href='https://portofoliorabby.netlify.app/'>verstands</a></strong>tous droits réservés
                     </div>
                 </div>
             </footer>

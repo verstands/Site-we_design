@@ -5,7 +5,6 @@ const Slider = () => {
         <section id="hero">
             <div className="hero-container">
                 <div id="heroCarousel" className="carousel slide carousel-fade" data-ride="carousel">
-
                     <ol className="carousel-indicators" id="hero-carousel-indicators"></ol>
 
                     <div className="carousel-inner" role="listbox">
@@ -23,7 +22,7 @@ const Slider = () => {
                             </div>
                         </div>
 
-                        <div className="carousel-item" style={{ backgroundImage: "url('z.jpeg')" }}>
+                        <div className="carousel-item" style={{ backgroundImage: "url('zzze.jpg')" }}>
                             <div className="carousel-container">
                                 <div className="carousel-content container">
                                     <center>
@@ -45,7 +44,7 @@ const Slider = () => {
                         </div>
 
 
-                        <div className="carousel-item" style={{ backgroundImage: "url('i.jpeg')" }}>
+                        <div className="carousel-item" style={{ backgroundImage: "url('zze.jpg')" }}>
                             <div className="carousel-container">
                                 <div className="carousel-content container">
                                     <center>

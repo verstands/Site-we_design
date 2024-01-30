@@ -108,7 +108,7 @@ const Service = () => {
                     La facilité d’entretien du papier peint
                     Enfin, le papier peint de qualité est lavable, ce qui vous permet de l’entretenir et de le conserver pendant au moins 15 ans dans votre chambre, votre salon ou votre espace bureau. Ce revêtement se lave à l’aide d’une éponge ou d’un chiffon humide. La toile supporte l’ajout d’eau savonneuse sur l’éponge pour les tâches les plus tenaces.
                   </p>
-                  <h5 style={{ color: "#D2691E", fontWeight: "bold" }}>Ameublement </h5>
+                  <h5 style={{ color: "#D2691E", fontWeight: "bold" }}>AMEUBLEMENT </h5>
                   <p className="text-justify">
                     on seulement appréciés pour leur esthétique, les meubles et aménagements intérieurs en bois améliorent l'impact environnemental, le bien-être et le confort de l'habitant et de l'usager. Un intérieur en bois véhicule une atmosphère à la fois contemporaine et chaleureuse.
                   </p>
